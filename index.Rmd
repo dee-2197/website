@@ -1,0 +1,20 @@
+---
+title: ""
+---
+
+::: columns
+::: {.column width="50%" style="text-align: center;"}
+
+```{r, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("images/Preferred_pic.jpg")
+``` 
+
+## Deepanshu Goel
+
+:::
+
+::: {.column width="50%" style="text-align: left;"}
+
+Welcome to my website! I’m Deepanshu Goel, a Master of Public Health (MPH) Epidemiology graduate from Emory University Rollins School of Public Health with a growing focus on data analytics in public health as evident by my certificate in Data Science. I use tools like R and Python to explore health data, uncover insights, and support data-driven decisions that improve population health. I am a physician by background.
+
+:::

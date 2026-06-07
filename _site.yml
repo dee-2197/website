@@ -1,0 +1,36 @@
+name: "Deepanshu.Goel Website"
+navbar:
+  title: "Deepanshu Goel Website"
+  left:
+    - text: "Home"
+      href: index.html
+      icon: fa-home
+    - text: "About"
+      href: about.html
+      icon: fa-book-open
+    - text: "Projects"
+      href: projects.html
+      icon: fa-computer
+    - text: "Resume"
+      href: files/resume_Deepanshu_Goel.pdf
+      icon: fa-paperclip
+    - text: "Gallery"
+      href: gallery.html
+      icon: fa-bookmark
+    - text: "Certificates"
+      href: Certificates.html
+      icon: fa-certificate
+      right:
+    - href: https://github.com/dee-2197
+      icon: fa-github
+    - href: mailto:deepanshugoel2111@gmail.com
+      icon: fa-envelope
+    - href: https://www.linkedin.com/in/deepanshu-goel-nov2197/
+      icon: fa-linkedin
+output_dir: docs
+output:
+  html_document:
+    theme: sandstone
+    css: style.css
+    includes:
+      in_header: header.html

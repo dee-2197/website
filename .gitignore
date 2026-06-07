@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+docs/
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif

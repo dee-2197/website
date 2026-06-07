@@ -1,0 +1,21 @@
+---
+title: Deepanshu's Projects
+---
+
+### [DATA 550 Final Project](https://github.com/dee-2197/DATA_550_final_project)
+
+In this project, I built a fully automated workflow to generate a complete analytical report, including demographic tables, visualizations, and regression results. I used tools like Make, Git, GitHub, renv, and Docker to ensure the entire final report is reproducible and easy to run from start to finish.
+
+### [Capstone Poster](https://docs.google.com/presentation/d/1tc8-_NIXcQiTtx-rbMlc7PytLwwyJRH9/edit?slide=id.p1#slide=id.p1)
+
+For my capstone project with CARE Ethiopia, I examined whether there is an association between WASH-based hygiene practices and diarrheal disease prevalence. Using a dataset of 977 individuals, I conducted statistical analyses to explore this relationship.
+
+My findings showed that access to a handwashing facility was associated with nearly a 50% reduction in diarrheal disease prevalence compared to those without access. This project strengthened my skills in data analysis, interpretation, and communicating public health findings through a research poster.
+
+### [DATA 555 Dashboard](https://dee-2197.github.io/DATA_555_dashboard/)
+
+In this project, I developed an interactive dashboard using my capstone dataset on WASH. The dashboard presents key results from my analysis and visualizes the distribution of selected covariates, making the findings more accessible and easier to interpret.
+
+### [R Workshop](https://github.com/dee-2197/R_Workshop)
+
+In this project, I attended a workshop that taught me how to conduct linear regression analysis using R and also Explored a dataset efficiently with **skimr**, Produced a publication-ready descriptive table with **table1**, Fitted, compared, and interpreted linear regression models with `lm()`, Checked regression assumptions with diagnostic plots, Reported model results as formatted tables and plots with **sjPlot**

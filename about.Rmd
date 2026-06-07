@@ -1,0 +1,9 @@
+---
+title: "About Me"
+---
+
+Hi, I’m Deepanshu Goel a Master of Public Health (MPH) graduate in Epidemiology from Emory University Rollins School of Public Health, with a certificate in Data Science and a background in medicine. I’m building my skills at the intersection of medicine (Bachelor of Medicine, Bachelor of Surgery (MBBS) from Government Medical College, Amritsar. Punjab, India), public health and data science, with a focus on using data to better understand and address population health challenges.
+
+My academic work has involved statistical analysis, epidemiological study design, and programming in R and Python. I’m particularly interested in applying these tools to areas like environmental health, WASH (Water, Sanitation, and Hygiene), and health outcomes research. Through my training, I’ve gained experience working with real-world data sets, conducting analyses such as logistic regression, and communicating findings through reports and visualizations.
+
+As I continue to grow in this field, I’m looking for opportunities to contribute to meaningful public health work, strengthen my analytical skills, and collaborate on projects that have a real-world impact. I am looking for epidemiological or data analysis roles
