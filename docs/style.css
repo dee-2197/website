@@ -1,0 +1,260 @@
+/* ============================================================
+   Deepanshu Goel — Personal Website Styles
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* ---------- Color palette (CSS variables for easy tweaking) ---------- */
+:root {
+  --primary: #1f4e79;        /* deep navy blue */
+  --primary-light: #2c7bb8;  /* accent blue */
+  --accent: #e8a33d;         /* warm gold accent */
+  --bg: #fafafa;             /* off-white page background */
+  --card-bg: #ffffff;        /* white cards */
+  --text: #2c3338;           /* near-black body text */
+  --text-muted: #5a6470;     /* secondary text */
+  --border: #e3e6ea;         /* subtle borders */
+  --shadow: 0 2px 8px rgba(31, 78, 121, 0.08);
+  --shadow-hover: 0 6px 20px rgba(31, 78, 121, 0.15);
+}
+
+/* ---------- Base typography ---------- */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', Georgia, serif;
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.4rem; margin-bottom: 1rem; }
+h2 { font-size: 1.9rem; margin-top: 2rem; }
+h3 { font-size: 1.4rem; margin-top: 1.5rem; }
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--primary-light);
+  text-decoration: none;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--primary);
+  border-bottom: 1px solid var(--primary);
+  text-decoration: none;
+}
+
+/* ---------- Navbar customization ---------- */
+.navbar {
+  background-color: var(--primary) !important;
+  border: none !important;
+  box-shadow: var(--shadow);
+  padding: 0.6rem 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.02em;
+  transition: color 0.2s ease;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: var(--accent) !important;
+  background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+/* Font Awesome icons in navbar */
+.navbar .fa {
+  margin-right: 0.3rem;
+}
+
+/* ---------- Main content container ---------- */
+.main-container {
+  max-width: 960px;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ---------- Home page hero / two-column layout ---------- */
+.columns {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem 0 3rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.column img {
+  box-shadow: var(--shadow-hover);
+  border: 4px solid #ffffff;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  /* Default: rectangular with rounded corners (works for gallery, etc.) */
+  border-radius: 12px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.column img:hover {
+  transform: scale(1.03);
+}
+
+.column h2 {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* Home page only: circular profile photo */
+.home-page .column img {
+  border-radius: 50%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* ---------- Projects page: card styling ---------- */
+/* Style each project section as a card */
+h3 {
+  background-color: var(--card-bg);
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  margin-top: 2rem;
+  margin-bottom: 0;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+h3:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+h3 a {
+  color: var(--primary);
+  border-bottom: none;
+}
+
+h3 a:hover {
+  color: var(--primary-light);
+  border-bottom: none;
+}
+
+/* Paragraphs that follow project headers */
+h3 + p {
+  background-color: var(--card-bg);
+  padding: 0 1.2rem 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  border-radius: 0 0 6px 6px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--accent);
+}
+
+h3 + p + p {
+  background-color: var(--card-bg);
+  padding: 0 1.2rem 1.2rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 0 6px 6px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--accent);
+}
+
+/* ---------- Page title ---------- */
+.title {
+  color: var(--primary);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.6rem;
+  margin-bottom: 2rem;
+  font-family: 'PT Serif', Georgia, serif;
+}
+
+/* ---------- Mobile responsiveness ---------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.2rem; padding: 0.8rem 1rem; }
+
+  .columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .column {
+    width: 100% !important;
+    text-align: center !important;
+    min-width: 0;
+  }
+
+  .column img {
+    max-width: 220px;
+  }
+
+  .main-container {
+    padding: 1rem 1rem 2rem;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding: 0.6rem 1rem;
+  }
+}
+
+/* ---------- Footer spacing ---------- */
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* ---------- Subtle entrance animation ---------- */
+.main-container {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
