@@ -95,4 +95,4 @@ This website serves as a comprehensive digital portfolio that brings together my
 Visit the live website here:
 
 **Dr. Deepanshu Goel Portfolio:**  
-:contentReference[oaicite:0]{index=0}
+https://dee-2197.github.io/website/
