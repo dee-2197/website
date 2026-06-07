@@ -1,9 +1,3 @@
----
-title: "Personal Portfolio Website"
-author: "Deepanshu Goel"
-date: "`r Sys.Date()`"
-output: github_document
----
 
 # Personal Portfolio Website
 
