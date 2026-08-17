@@ -12,7 +12,7 @@ navbar:
       href: projects.html
       icon: fa-computer
     - text: "Resume"
-      href: files/Dr_Deepanshu_Goel_resume.pdf
+      href: files/Dr_Deepanshu_Goel_Resume.pdf
       icon: fa-paperclip
     - text: "Gallery"
       href: gallery.html
