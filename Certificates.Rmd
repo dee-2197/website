@@ -1,7 +1,19 @@
 ---
 title: Certificates
 ---
+::: columns
+::: {.column width="50%" style="text-align: center;"}
 
+```{r, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_url("files/MPH_Diploma.pdf")
+``` 
+
+### MPH Diploma
+
+I am proud to have completed my Master of Public Health (MPH) in Epidemiology from Emory University’s Rollins School of Public Health, with a 3.9 GPA and a Certificate in Data Science. The program strengthened my expertise in epidemiologic methods, statistical analysis, public health research, and data-driven decision-making, while allowing me to apply these skills to real-world health challenges.
+
+
+:::
 ::: columns
 ::: {.column width="50%" style="text-align: center;"}
 

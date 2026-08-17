@@ -6,6 +6,17 @@ title: "Snapshots"
 ::: {.column width="50%" style="text-align: center;"}
 
 ```{r, echo=FALSE, fig.align="center", out.width="80%"}
+knitr::include_graphics("images/Graduation_Pic.jpg")
+``` 
+
+## Graduated from Emory University Rollins School of Public Health
+
+:::
+
+::: columns
+::: {.column width="50%" style="text-align: center;"}
+
+```{r, echo=FALSE, fig.align="center", out.width="80%"}
 knitr::include_graphics("images/poster_pic.jpg")
 ``` 
 
